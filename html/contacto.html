@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/contacto.css">
+    <title>Contacto - Pinthias Art</title>
+</head>
+<body>
+    <br>
+    <header class="header">
+        <a href="index.html">
+            <div class="logo">
+                <img src="/img/inicio/arte.png" alt="Logo de la marca">
+            </div>
+        </a>        
+        <nav>
+           <ul class="nav-links">
+                <li><a href="index.html#ofertas">Ofertas</a></li>
+                <li><a href="index.html#categorias">Categorias</a></li>
+                <li><a href="acercade.html">Sobre Nosotros</a></li>
+           </ul>            
+        </nav>
+            <section class="social-media">
+                <a href="https://www.facebook.com/profile.php?id=61552723704240" target="_blank"><img src="/icons/facebook-icon.png" alt="Facebook"></a>
+                <a href="https://twitter.com/PinthiasArt" target="_blank"><img src="/icons/x-icon.png" alt="Twitter"></a>
+                <a href="https://www.instagram.com/pinthias_art/" target="_blank"><img src="/icons/instagram-icon.png" alt="Instagram"></a>
+                <a href="https://api.whatsapp.com/send?phone=78164658" target="_blank"><img src="/icons/wathsapp-icon.png" alt="Wathsapp"></a>
+            </section>
+        </footer>
+    </header>
+
+    <section id="formulario-contacto">
+        <h2>Contacto</h2>
+        <br>
+        <p>¡Estamos aquí para ayudarte! Completa el formulario y nos pondremos en contacto contigo pronto.</p>
+
+        <form action="#" method="post">
+            <table>
+                <tr>
+                    <td><label for="nombre">Nombre completo:</label></td>
+                    <td><input type="text" id="nombre" name="nombre" required></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Correo Electrónico:</label></td>
+                    <td><input type="email" id="email" name="email" required></td>
+                </tr>     
+                <tr>
+                    <td><label for="telefono">Teléfono:</label></td>
+                    <td><input type="tel" id="telefono" name="telefono"></td>
+                </tr>
+                <tr>
+                    <td><label for="direccion">Dirección:</label></td>
+                    <td><input type="text" id="direccion" name="direccion"></td>
+                </tr>
+                <tr>
+                    <td><label for="ciudad">Ciudad:</label></td>
+                    <td><input type="text" id="ciudad" name="ciudad"></td>
+                </tr>
+                <tr>
+                    <td><label for="pais">País:</label></td>
+                    <td><input type="text" id="pais" name="pais"></td>
+                </tr>
+                <tr>
+                    <td><label for="motivo">Motivo de contacto:</label></td>
+                    <td>
+                        <select id="motivo" name="motivo" required>
+                            <option value="" disabled selected>Selecciona un motivo</option>
+                            <option value="consulta">Consulta</option>
+                            <option value="compra">Compra</option>
+                            <option value="otro">Otro</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="mensaje">Mensaje:</label></td>
+                    <td><textarea id="mensaje" name="mensaje" rows="4" required></textarea></td>
+                </tr>
+                <tr>
+                    <td><label><input type="checkbox" id="suscribirse" name="suscribirse"> Suscribirse al boletín</label></td>
+                    <td colspan="2" style="text-align: center;">
+                        <button type="submit">Enviar Mensaje</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </section>
+
+    <section id="testimonios">
+        <h2>Testimonios</h2>
+        <br>
+        <div class="testimonio">
+            <p>"Increíble calidad de productos. ¡Estoy muy satisfecho con mi compra!"</p>
+            <p class="autor">- Ana López</p>
+        </div>
+        <div class="testimonio">
+            <p>"El servicio al cliente es excelente. Respondieron rápidamente a mis preguntas."</p>
+            <p class="autor">- Carlos Rodríguez</p>
+        </div>
+        <div class="testimonio">
+            <p>"Me encanta la variedad de obras de arte. Siempre encuentro algo único y hermoso."</p>
+            <p class="autor">- María González</p>
+        </div>
+        <div class="testimonio">
+            <p>"La entrega fue rápida y segura. Mis pinturas llegaron en perfecto estado."</p>
+            <p class="autor">- Juan Pérez</p>
+        </div>
+        <div class="testimonio">
+            <p>"Increíblemente satisfecho con mis compras. Las obras de arte son impresionantes y únicas. ¡Volveré a comprar!"</p>
+            <p class="autor">- Laura Sánchez</p>
+        </div>
+        <div class="testimonio">
+            <p>"He comprado varias veces y cada vez estoy más impresionado. Pinthias Art es mi tienda de arte favorita."</p>
+            <p class="autor">- Marta González</p>
+        </div>
+        <div class="testimonio">
+            <p>"El arte transforma mi espacio y mi estado de ánimo. Gracias, Pinthias Art, por hacerlo posible."</p>
+            <p class="autor">- Alejandro Ruiz</p>
+        </div>
+        <div class="testimonio">
+            <p>"La calidad y la atención al detalle en cada obra de arte es excepcional. Mi hogar se ve más hermoso gracias a Pinthias Art."</p>
+            <p class="autor">- Susana López</p>
+        </div>        
+    </section>
+    <footer id="footer">
+        <p>Pinthia's Art&copy; Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
